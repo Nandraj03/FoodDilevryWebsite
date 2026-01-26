@@ -1,7 +1,9 @@
 .explore-menu{
     display: flex;
     flex-direction: column;
-    gap: 20px;
+    /* gap: 20px; */
+    position: relative;
+    bottom: 15vh;
 }
 .explore-menu h1{
     color: #262626;
@@ -41,4 +43,8 @@
     height: 2px;
     background-color: #e2e2e2;
     border: none;
+}
+.explore-menu-list-item .active{
+    border: 4px solid tomato;
+    padding: 2px;
 }

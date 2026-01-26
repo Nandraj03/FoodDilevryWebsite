@@ -1,14 +1,18 @@
-.Header{
-    height: 34vw;
+.Header {
+    height: 61vh;
+    width: 82vw;
     /* margin: 30px auto;    */
     background: url('/header_img.png') no-repeat;
-    background-size: contain;
+    background-size: cover;
+    background-position: center;
     position: relative;
+    bottom: 14vh;
+    border-radius: 25px;
 }
 
-.header-contents{
+.header-contents {
     position: absolute;
-    bottom: 10%;
+    bottom: 0%;
     left: 6vw;
     display: flex;
     flex-direction: column;
@@ -18,22 +22,23 @@
     animation: fadeIn 3s;
 }
 
-.header-contents h2{
-    font-weight:500;
+.header-contents h2 {
+    font-weight: 500;
     color: white;
-    font-size: max(4.5vw,22px);
+    font-size: max(4.5vw, 22px);
 }
 
-.header-contents p{
+.header-contents p {
     color: white;
     font-size: 1vw;
 }
-.header-contents button{
+
+.header-contents button {
     border: none;
     color: #747474;
     font-weight: 500;
     padding: 1vw 2.3vw;
     background-color: white;
-    font-size: max(1vw,13px);
+    font-size: max(1vw, 13px);
     border-radius: 50px;
 }
